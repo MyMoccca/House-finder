@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  align-self: center;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  /*height: 50%;*/
+  border: 1px solid gray;
+  margin: 0;
+  margin-bottom: 5rem;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card-title {
+  color: red;
+  font-size: xx-large;
+  padding: 1rem;
+  align-self: center;
+  margin: 0;
+}
+
+.card-image {
+  align-self: center;
+  width: 85%;
+  height: 70%;
+  border-radius: 20px;
+  margin-bottom: 2rem
+}
+
+.card-button {
+  align-self: center;
+  font-size: x-large;
+  background-color: rgb(255, 105, 105);
+  border-radius: 20px;
+  width: fit-content;
+}
+
+div {
+  width: 35%;
+  height: 70vh;
+}
